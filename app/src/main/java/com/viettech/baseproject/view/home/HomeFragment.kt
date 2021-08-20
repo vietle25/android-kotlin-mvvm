@@ -12,6 +12,7 @@ import com.viettech.baseproject.databinding.FragmentHomeBinding
 import com.viettech.baseproject.enum.MovieType
 import com.viettech.baseproject.view.base.BaseFragment
 import com.viettech.baseproject.viewmodel.HomeViewModel
+import com.viettech.baseproject.widget.ItemDecoration
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 

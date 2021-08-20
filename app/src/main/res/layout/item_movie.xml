@@ -5,16 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:cardElevation="0dp">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <!--        <ImageView-->
-        <!--            android:id="@+id/img_movie"-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="match_parent"-->
-        <!--            android:contentDescription="@string/movie_img" />-->
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imgMovie"
+            android:padding="@dimen/dp_8"
+            android:layout_width="@dimen/dp_102"
+            android:layout_height="@dimen/dp_102"
+            android:contentDescription="@null" />
         <TextView
             android:id="@+id/titleMovie"
             android:layout_width="match_parent"
@@ -24,10 +24,5 @@
             android:textSize="16sp"
             android:textStyle="bold"
             tools:text="AhsenSaeed" />
-        <!--        <TextView-->
-        <!--            android:id="@+id/release_date_movie"-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:textColor="#FFF"/>-->
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

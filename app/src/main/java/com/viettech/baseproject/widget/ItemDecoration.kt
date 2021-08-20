@@ -1,4 +1,4 @@
-package com.viettech.baseproject.view.home
+package com.viettech.baseproject.widget
 
 import android.graphics.Canvas
 import android.graphics.drawable.Drawable

@@ -3,8 +3,10 @@ package com.viettech.baseproject.view.home
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
+import com.squareup.picasso.Picasso
 import com.viettech.baseproject.databinding.ItemMovieBinding
 import com.viettech.baseproject.model.movie.MovieModel
+import com.viettech.baseproject.utils.Constants
 import com.viettech.baseproject.view.base.BaseListAdapter
 import com.viettech.baseproject.view.base.ListViewHolder
 
@@ -30,6 +32,7 @@ class MovieAdapter() :
     }
 
     override fun bindData(holder: ListViewHolder<ItemMovieBinding>, item: MovieModel) {
-        holder.binding.titleMovie.text = item.posterPath
+        holder.binding.titleMovie.text = item.originalTitle
+        Picasso.get().load(Constants.BASE_IMAGE_URL + item.posterPath).into(holder.binding.imgMovie)
     }
 }

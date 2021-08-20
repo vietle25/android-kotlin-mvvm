@@ -1,4 +1,4 @@
-package com.viettech.baseproject.di
+package com.viettech.baseproject.module
 
 import com.viettech.baseproject.viewmodel.HomeViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
